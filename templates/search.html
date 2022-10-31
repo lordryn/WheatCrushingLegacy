@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Search Page{% endblock %}
+
+{% block content %}
+<form action="#" method="post" style="position: relative; background-color:989898; color:222222; text-align: center;">
+	
+    <div class="field" style = "background-color:989898; color:222222;">
+        <label class="label"style="background-color:989898; color:222222;">RSN</label>
+        <div class="control">
+            <input class="input is-primary" type="text" placeholder="eg: The Lord Ryn" name = "nm">
+            <label class="checkbox">
+                <input type="checkbox" name="Get latest">
+                add latest RS skills data to database
+            </label></br>
+            <button class="button is-primary" value="submit">Submit</button>
+ 
+        </div>
+    </div>
+<!-- 	<p><input type="text" name="nm" /></p> -->
+
+</form>
+{% endblock %}

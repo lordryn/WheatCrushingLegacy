@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Search Page{% endblock %}
+
+{% block content %}
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+{% endblock %}
