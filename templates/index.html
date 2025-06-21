@@ -1,33 +1,13 @@
+--- index.html ---
 {% extends "base.html" %}
-{% block title %}Intro{% endblock %}
-<!-- https://www.paypal.com/donate/?hosted_button_id=VXPU3N3DCRB2S -->
+{% block title %}Home{% endblock %}
 {% block content %}
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello RS!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  </head>
-  <body >
-  <section class="section has-text-grey	has-background-grey-dark">
-    <div class="container has-text-grey	has-background-grey-dark">
-      <h1 class="title has-text-grey has-background-grey-dark" >
-        Welcome to the Misfit Marauders' RSTracker!
-      </h1>
-      <p class="subtitle has-text-grey has-background-grey-dark">
-          <ul>
-              <li>The clan member list is automaticly propogated with current clan members every scheduled update.</li>
-              <li>Database entries are added both hourly and when the checkbox is ticked.</li>
-              <li>You do not have to be a clan member to start tracking!</li>
-              <li><strong>Data is gathered via the Runescape api, meaning our database will only have data from the last time you left the game.</strong></li>
-              <li>Tests show exiting to lobby is sufficient to trigger an update on Runescape's side. </li>
-              <li>Clan leaderboards are refreshed weekly at the very start of Saturday cst.</li>
-              <li>Leaderboards may take a minute to load</li>
-              <li>The time format is: yyyy-mm-dd-hh-mm</li>
-          </ul>
-      </p>
-
-    </div>
-  </section>
-  </body>
+  <div class="content">
+    <h2 class="title is-4">Welcome to the WheatCrushing Legacy Tracker</h2>
+    <p>This site provides a leaderboard and skill tracking tool for the Misfit Marauders RuneScape clan.</p>
+    <ul>
+      <li><a href="/search">Search for a player</a></li>
+      <li><a href="/leaderboards-isRaw=no">View the leaderboard</a></li>
+    </ul>
+  </div>
 {% endblock %}

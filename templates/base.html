@@ -1,96 +1,79 @@
+--- base.html ---
 <!DOCTYPE html>
-<html class ="content has-text-grey has-background-grey-dark">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-      <title class="title has-text-grey has-background-grey-dark">RSTracker</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link href="http://fonts.cdnfonts.com/css/runescape-uf" rel="stylesheet">
-  </head>
-    <div class="content has-text-grey has-background-grey-dark">
-    <body style = "background-color:989898; color:222222;">
-        <nav class="navbar has-text-grey has-background-grey-dark" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand has-background-grey-lighter	">
-        <a class="navbar-item" href="https://rstracker.fubr.dev">
-            <div class= "content"> 
-                <h1>RSTracker</h1>
-            </div>
-    <!--       <img src="https://www.fubr.dev/wp-content/uploads/2022/10/misfit_marauders_3_no_lettering_or_bg.png" width="112" height="28">-->
-        </a> 
-    
-        <a role="button" class="navbar-burger has-text-grey has-background-grey-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-    
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start has-text-grey has-background-grey-dark">
-    <!--       <a class="navbar-item">
-            Home
-          </a>
-    
-          <a class="navbar-item">
-            Documentation
-          </a>
-    
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              More
-            </a>
-    
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                About
-              </a>
-              <a class="navbar-item">
-                Jobs
-              </a>
-              <a class="navbar-item">
-                Contact
-              </a>
-              <hr class="navbar-divider">
-              <a class="navbar-item">
-                Report an issue
-              </a> -->
-            </div>
-          </div>
-        </div>
-    
-        <div class="navbar-end has-text-grey has-background-grey-dark">
-    <!--       <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">
-                Log in
-              </a>
-            </div>
-          </div> -->
-        </div>
-      </div>
-            
-    </nav>
-    <div class="content has-text-grey has-background-grey-dark">    
-        {% block content %}
-        {% endblock %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}RSTracker{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link href="https://fonts.cdnfonts.com/css/runescape-uf" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      font-family: 'Arial', sans-serif;
+    }
+    table thead th {
+      background-color: #2e2e2e;
+      color: #ffffff;
+    }
+    table tbody tr:nth-child(even) {
+      background-color: #2a2a2a;
+    }
+    table tbody tr:hover {
+      background-color: #444444 !important;
+    }
+    .table-container {
+      overflow-x: auto;
+      border: 2px solid #888;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+    .navbar, .footer {
+      background-color: #2f2f2f;
+      color: #ddd;
+    }
+    .navbar .navbar-brand h1 {
+      font-family: 'RuneScape UF', sans-serif;
+      color: #f0f0f0;
+    }
+    .button.is-primary {
+      background-color: #4e9a06; /* colorblind-friendly green */
+      border-color: #3d7804;
+    }
+    .button.is-primary:hover {
+      background-color: #3d7804;
+    }
+  </style>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <h1>RSTracker</h1>
+      </a>
     </div>
-    
-    </body>
-        <div>
-        <footer class="footer has-text-grey has-background-grey-dark" style='position: relative; bottom: 0; left: 0; right: 0;'>
-          <div class="content has-text-centered has-text-grey has-background-grey-dark" style='background-color:989898; color:222222;'>
-            <p> 
-                      Thoughts and suggestions to Lord Ryn#0117 on Discord
-            </p>
-            <input type="button" class="button is-primary" onclick="location.href='https://rstracker.fubr.dev/search';" value="Let's get tracking!" />
-            <input type="button" class="button is-primary" onclick="location.href='https://rstracker.fubr.dev/leaderboards-isRaw=no';" value="Clan Leaderboards" />
-            <input type="button" class="button is-primary" onclick="location.href='https://www.paypal.com/donate/?hosted_button_id=VXPU3N3DCRB2S';" value="Buy me an energy drink!" />
-         </div>
-        </div>
-        </footer>
+    <div class="navbar-end">
+      <!-- Future navbar items -->
     </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>Thoughts and suggestions to Lord Ryn#0117 on Discord</p>
+      <div class="buttons is-centered">
+        <button class="button is-primary" onclick="location.href='/search'">Let's get tracking!</button>
+        <button class="button is-primary" onclick="location.href='/leaderboards-isRaw=no'">Clan Leaderboards</button>
+        <button class="button is-primary" onclick="location.href='https://www.paypal.com/donate/?hosted_button_id=VXPU3N3DCRB2S'">Buy me an energy drink!</button>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>

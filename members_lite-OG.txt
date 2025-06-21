@@ -1,105 +1,240 @@
 Clanmate, Clan Rank, Total XP, Kills
-SwollyBear,Owner,562039150,0
-MamaT6661,Deputy Owner,163961465,0
-Mrnoodles,Deputy Owner,711265973,0
-The Lord Ryn,Deputy Owner,95497049,0
-Nessa200,Overseer,241028428,0
-iAcetic,Overseer,168247619,0
-StickAttk,Overseer,162956631,0
-Aceyyy,Overseer,250728314,0
-LegitosityJ,Coordinator,137457823,0
-Blue123000,Coordinator,339914578,0
-Papalich,Coordinator,25644380,0
-PithySandman,Coordinator,43825336,0
-soccermom703,Sergeant,60948837,0
-DAM1AN1CC,Sergeant,46012753,0
-Zaiios,Sergeant,149047533,0
-HenryFord23,Sergeant,18594196,0
-Hallihk1,Sergeant,155196111,0
-Shdum,Sergeant,0,0
-GageHunterB,Sergeant,2028831,0
-GruffDaddy,Sergeant,4965498,0
-MasseyMassey,Sergeant,49901893,0
-Jerivicious,Sergeant,2990756,0
-Atisuto,Sergeant,7675272,0
-Clue Memes,Sergeant,53540423,0
-ZeeTK1,Sergeant,5210592,0
-Safala,Sergeant,27502405,0
-Cartermutt,Sergeant,790950,0
-Paweth,Sergeant,98452184,0
-Crushsand3,Sergeant,30525312,0
-Murdauk,Sergeant,41003676,0
-gigglesmo,Sergeant,2477878,0
-BeardedGnge,Sergeant,7263063,0
-DixonUButt,Sergeant,0,0
-xValinx,Sergeant,6593509,0
-HWK-Hummer,Sergeant,10972107,0
-Anhurs,Sergeant,5858785,0
-nephoss,Sergeant,28651731,0
-SZackHD88,Sergeant,174553096,0
-B U N N Y,Corporal,8451052,0
-Baby Dreavus,Corporal,3576083,0
-dean dean,Corporal,2389816,0
-Pizzahuttbut,Corporal,1218323,0
+SwollyBear,Owner,1205399692,0
+WholesomeJay,Deputy Owner,442632873,0
+PithySandman,Deputy Owner,600369562,0
+D Snoot Dog,Deputy Owner,258048997,0
+Blue123000,Deputy Owner,1995318724,0
+ElderViper,Overseer,30615578,0
+ClanSandman,Overseer,33580907,0
+necrodude69,Overseer,38333993,0
+pothead231,Overseer,619538,0
+CrazyIvan,Overseer,475248059,0
+BluChristine,Overseer,443050228,0
+Bishopq3,Overseer,708482860,0
+theHolyDruid,Overseer,1275937277,0
+ParagonViper,Overseer,578065202,0
+tunkie,Overseer,255720119,0
+meepownyou,Overseer,617529101,0
+ogtheif69,Overseer,107170547,0
+pothead0137,Coordinator,62689319,0
+LegitosityJ,Coordinator,367173600,0
+nuclear pony,Coordinator,34438708,0
+allaroundog,Coordinator,10179210,0
+Flip_The_Bee,Coordinator,62569207,0
+Papalich,Coordinator,26232913,0
+rkells42,Coordinator,235610439,0
+Mumbles2518,Coordinator,44253429,0
+Zaiios,Coordinator,1363028084,0
+KvngKong,Coordinator,20608044,0
+Komatts,Sergeant,436797373,0
+DevEx7,Sergeant,94476971,0
+DevEx_IM,Sergeant,48517290,0
+Idle Cosmos,Sergeant,323408802,0
+xRobinHoodxB,Sergeant,423903507,0
+Yungbusquik,Sergeant,180719069,0
+KGP Damo,Sergeant,658181085,0
+ActualBird06,Sergeant,71120139,0
+SaucyLegend,Sergeant,185144751,0
+Shinybro,Sergeant,21621937,0
+Brandon11092,Sergeant,467192071,0
+Hallihk1,Sergeant,411139174,0
+Nullie,Sergeant,215262922,0
+iiCast,Sergeant,129483370,0
+Chantelley,Corporal,936435,0
+ShortBus M08,Corporal,4332216,0
+Kuman98,Corporal,102134880,0
+Zyrel,Corporal,1760414,0
+Redstone464,Corporal,17722888,0
+MageTank2024,Corporal,322774,0
+MeleeTank24,Corporal,880629,0
+SirZyPA,Corporal,1161363,0
+Timbles NIM,Corporal,82176713,0
+canter35,Corporal,99757127,0
+EarthRick,Corporal,58744042,0
+ephexx,Corporal,67076749,0
+Ja Boii,Corporal,6308056,0
+V I T 0,Corporal,224223974,0
+McWrinkleNut,Corporal,25317856,0
+joniams,Corporal,110650772,0
+Marcsussy,Corporal,1343188,0
+Um smithy,Corporal,26645422,0
+LemonTerps,Corporal,9215999,0
+Alantri,Corporal,34070891,0
+WastedEcho96,Corporal,29463653,0
+Shdum,Corporal,11177,0
+GageHunterB,Corporal,2216239,0
+GruffDaddy,Corporal,44437066,0
+Marshal Momo,Corporal,162686704,0
+Collin2245,Corporal,478513,0
+Paweth,Corporal,98452184,0
+Thedevil649,Corporal,303773,0
+LeBironye,Corporal,12590702,0
+MasseyMassey,Corporal,78704234,0
 Warm Lust,Corporal,0,0
-Bonn88,Corporal,267815,0
-ActualBird06,Corporal,23789684,0
-deltadeathrs,Corporal,34060521,0
-Deltadeath,Corporal,32162810,0
-Rob864guy,Corporal,18051584,0
-Krux99,Corporal,110089077,0
-Angelsrose,Corporal,827616,0
-Makxce,Corporal,43336725,0
-Helsing400,Corporal,669391,0
-Brandon11092,Corporal,114657187,0
-Choobies jr,Corporal,5013911,0
-SmellCapper,Corporal,904790,0
-Bishopq3,Corporal,27528844,0
+sweet heet,Corporal,4932884,0
+Fatcoulis,Corporal,45405881,0
+fourm1,Corporal,5679088,0
+Will3141592,Corporal,1954795,0
+SomePersona,Corporal,153056566,0
+Dice X Valor,Corporal,2606814,0
+Ryuu Satori,Corporal,47012033,0
+NJProffitt20,Corporal,332041794,0
+HenryFord23,Corporal,88420215,0
+C 0 R Y,Corporal,198391137,0
+Aenaar,Corporal,344640,0
 GarbageCan27,Corporal,9074635,0
-Lil Ms Kitty,Corporal,95942404,0
-ParagonViper,Corporal,26513462,0
-Shinybro,Corporal,5082676,0
-TrimsUrArmor,Corporal,23395909,0
-Cursed Hazel,Corporal,95001,0
-TheOneInOnly,Corporal,1309601,0
-Aussiegodx,Corporal,9262956,0
-iiCast,Corporal,28340278,0
-Thedevil649,Corporal,291985,0
-CrazyIvan,Corporal,3677128,0
-landofhobo,Corporal,332363,0
-Nizarnir,Corporal,1515879,0
-Akbar444,Recruit,1330789,0
-Aoppaaa,Recruit,4245815,0
-senso heiwa,Recruit,19136850,0
-Guildwars108,Recruit,38675810,0
+The Hogger,Corporal,10425075,0
+Lalabugout,Corporal,0,0
+Ranti0k,Corporal,6717058,0
+xKingToxic,Corporal,83705558,0
+133E7,Corporal,387790446,0
+Jakob12343,Corporal,50113880,0
+yaboyblue69,Corporal,746852186,0
+XxDADDYCHILL,Corporal,7476156,0
+Dark Fae 268,Corporal,15811,0
+Icyhumor,Corporal,4449295,0
+JProff,Corporal,155654,0
+Pizzahuttbut,Corporal,1218323,0
+Frejya13,Corporal,3909,0
+loki is best,Corporal,2927,0
+Bonn88,Corporal,267815,0
+gigglesmo,Corporal,3924687,0
+GriffinDorph,Corporal,7294949,0
+TombSK,Corporal,171220057,0
+PotdindyNoob,Corporal,50015657,0
+Jolyn Cujo,Corporal,70799305,0
+Oortulus,Corporal,99591192,0
+OriginalYeti,Corporal,44529252,0
+whetpancakes,Corporal,161568174,0
+DontStarve2,Corporal,3660,0
+Kind Maurice,Corporal,75643366,0
+deltadeathrs,Corporal,34060521,0
+Krux99,Corporal,413126010,0
+Angelsrose,Corporal,834271,0
+Makxce,Corporal,256310222,0
+BobTheWelder,Corporal,26151173,0
+Brother_Tray,Corporal,98794143,0
+Max Kessler,Corporal,162564226,0
+ChrattM,Corporal,592082,0
+cminergod,Corporal,105894,0
+Lord Demjin,Corporal,13123445,0
+Cornblob3,Corporal,90517548,0
+Shalarae,Corporal,191503424,0
+Helsing400,Corporal,848161,0
+Ida_Sage,Corporal,1851469,0
+Overlord San,Corporal,63995553,0
+Rebekke098,Corporal,4563247,0
+Suzaku23,Corporal,15540077,0
+Kerosyne,Corporal,280604959,0
+Atisuto,Corporal,8956124,0
+crusader1217,Corporal,71924505,0
+Aleckz,Corporal,202428312,0
+dean dean,Corporal,5435791,0
+ZeeTK1,Corporal,5873916,0
+Safala,Corporal,27502405,0
+DTRUMP_2024,Corporal,12585362,0
+Cartermutt,Corporal,2868722,0
+Crushsand3,Corporal,118571789,0
+Drakgar,Corporal,198701208,0
+GoodieGirl,Corporal,51732123,0
+RockKnight01,Corporal,1367346,0
+DixonUButt,Corporal,2442,0
+TabsAhoy,Recruit,143350,0
+ShawdogA,Recruit,0,0
+HunterFox25,Recruit,112264517,0
+PhantomSnoot,Recruit,1353952,0
+PhantomDemon,Recruit,7748845,0
+phantomog69,Recruit,17034801,0
+Phantom Meep,Recruit,2858939,0
+Phantom Ivan,Recruit,19005351,0
+DemonKingIM,Recruit,4124058,0
+SquirtManiac,Recruit,409441,0
+Dreamsmoon,Recruit,737764,0
+SAPHHZ,Recruit,1082860,0
+OGBoss69,Recruit,1025174,0
+Kyro-sol,Recruit,60502008,0
+Robot1575,Recruit,4812492,0
+Madamely,Recruit,2401012,0
+Dan The Imp,Recruit,5293411,0
+c0rnball v3,Recruit,240481,0
+Viperrose816,Recruit,228673,0
+ephexx2,Recruit,41805,0
+Twodubs,Recruit,3205602,0
+ogsclanfund,Recruit,646779,0
+The Missile,Recruit,85788,0
+FlinTheBin,Recruit,9071262,0
+Iam4200,Recruit,128685212,0
+lolly83,Recruit,91824499,0
+TacoBell Guy,Recruit,455263,0
+SlatraLT,Recruit,31443461,0
+Rockymoms,Recruit,75503925,0
+MrsVorxIron,Recruit,9099562,0
+Thingering,Recruit,198322,0
+ViperSeven,Recruit,301119081,0
+Exceeedingly,Recruit,32752037,1
+Lasiland,Recruit,5360939,0
+Citoe108,Recruit,68031,0
+iamspike69,Recruit,91231667,0
+lightning679,Recruit,136168237,0
+minerva_420,Recruit,7637949,0
+Fire_KIller2,Recruit,447374043,0
+tyl3rtheslay,Recruit,32853,0
+Goldmask2387,Recruit,118616448,0
+Tedwa124,Recruit,254621,0
+shiffty2113,Recruit,1939923,0
+SillyBuddy7,Recruit,5347072,0
+Aoppaaa,Recruit,4246545,0
+Peteage,Recruit,11168337,0
 Seaferret,Recruit,18138554,0
-The Naysayer,Recruit,5690,0
+Siohbaan,Recruit,13848108,0
 Glizzy1Glock,Recruit,1785,0
-minerva_420,Recruit,885187,0
-y u no 666,Recruit,1215291,0
-Nullie,Recruit,29480222,0
-tyl3rtheslay,Recruit,9540,0
-133E7,Recruit,101482780,0
-Zenros,Recruit,208917307,0
-Masatsuzan,Recruit,10258443,0
-ShadyGo,Recruit,5796,0
+Bobber69,Recruit,11939146,0
+NotBurdman,Recruit,4158634,0
+Onion Sunbae,Recruit,81858242,0
+SuperCam22,Recruit,6673,0
+NycDaryle,Recruit,38147088,0
+Zenros,Recruit,209018910,0
+Krusher349,Recruit,42386748,0
+Masatsuzan,Recruit,17383748,0
 eilisey,Recruit,52057349,0
-metaliczang,Recruit,11915376,0
-doublesmite,Recruit,0,0
-DTheBugman,Recruit,20300969,0
-Bradbud,Recruit,1398507,0
-BillAsher713,Recruit,36412602,0
-Agastrophos,Recruit,1325287,0
-Goldmask2387,Recruit,4864874,0
-nuclear pony,Recruit,32388537,0
-Siohbaan,Recruit,4177870,0
-blackout0020,Recruit,5041618,0
-Overlord San,Recruit,1852802,0
+metaliczang,Recruit,354545047,0
+Andrew Bloom,Recruit,1166754,0
+wantcatgirl,Recruit,13108,0
+Abysmal Sin,Recruit,109853,0
+Notoriously5,Recruit,16055755,0
+ogsironman,Recruit,1696559,0
+WizardShotta,Recruit,0,0
+AppleWeeaboo,Recruit,32428711,0
+ScreamsAtYou,Recruit,35225,0
+Tiblanc1989,Recruit,290432421,0
 SamiLouise,Recruit,1463,0
-In Mah Pants,Recruit,89692386,0
-LemonTerps,Recruit,722583,0
-Dark Fae 268,Recruit,15424,0
-Mr_710_Gir,Recruit,7834972,0
-Tedwa124,Recruit,41770,0
-sweet heet,Recruit,981085,0
-Peteage,Recruit,507178,0
+Taeteu,Recruit,17397915,0
+Agastrophos,Recruit,1504252,0
+Cliksterbait,Recruit,18287479,0
+gratefulzack,Recruit,1342843,0
+Akbar444,Recruit,1364393,0
+swagdaddy120,Recruit,36439,0
+SugarLipsDoe,Recruit,2367148,0
+Pewnscaper,Recruit,96703454,0
+GrimJack1217,Recruit,15494,0
+natebuch640,Recruit,391794,0
+SandViperSix,Recruit,384718151,0
+tberss,Recruit,151473659,0
+Yaziggy,Recruit,18876147,0
+PratrDarrow,Recruit,271584,0
+Guildwars108,Recruit,145769300,0
+GGJimmee,Recruit,66167973,0
+The Naysayer,Recruit,74531928,0
+97try,Recruit,5471599,0
+ixXAurAXxi,Recruit,10283712,0
+moygun,Recruit,398058,0
+PithyViper,Recruit,668447358,0
+y u no 666,Recruit,1215291,0
+AxeltheMex2,Recruit,14548,0
+1-Hades-0,Recruit,209154028,0
+Jerivicious,Recruit,2993126,0
+mrhawaiian,Recruit,12072036,0
+ShadyGo,Recruit,5796,0
+doublesmite,Recruit,0,0
+HexornVester,Recruit,6651602,0
+bluribbontt,Recruit,68265,0

@@ -1,24 +1,10 @@
+--- notexist.html ---
 {% extends "base.html" %}
-{% block title %}Intro{% endblock %}
-<!-- https://www.paypal.com/donate/?hosted_button_id=VXPU3N3DCRB2S -->
+{% block title %}Not Found{% endblock %}
 {% block content %}
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Oh no! D:
-      </h1>
-      <p class="subtitle">
-          It looks like we were unable to find the username you searched either on Runescapes HiScores or in our database. If this is a new entry please tick the add data checkbox.
-      </p>
-
-    </div>
-  </section>
-  </body>
+  <div class="notification is-danger">
+    <h2 class="title is-5">Player Not Found</h2>
+    <p>Sorry, we couldn't locate that player in the database. Please check the name and try again.</p>
+    <a class="button is-link mt-3" href="/search">Return to Search</a>
+  </div>
 {% endblock %}

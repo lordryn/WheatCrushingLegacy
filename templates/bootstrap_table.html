@@ -1,26 +1,13 @@
-{% extends "flask-black-dashboard/apps/templates/layouts/base.html" %}
-
+--- bootstrap_table.html ---
+{% extends "base.html" %}
+{% block title %}Leaderboard{% endblock %}
 {% block content %}
-  <table id="data" class="table table-striped">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Address</th>
-        <th>Phone Number</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for user in users %}
-        <tr>
-          <td>{{ user.name }}</td>
-          <td>{{ user.age }}</td>
-          <td>{{ user.address }}</td>
-          <td>{{ user.phone }}</td>
-          <td>{{ user.email }}</td>
-        </tr>
+  <div class="box">
+    <h2 class="title is-4">{{ name | title }} Leaderboard</h2>
+    <div class="table-container" role="region" aria-label="Leaderboard Table for {{ name }}">
+      {% for table in tables %}
+        {{ table | safe }}
       {% endfor %}
-    </tbody>
-  </table>
+    </div>
+  </div>
 {% endblock %}

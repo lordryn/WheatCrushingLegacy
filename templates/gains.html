@@ -1,12 +1,28 @@
+--- gains.html ---
 {% extends "base.html" %}
-{% block title %}Search Page{% endblock %}
-
+{% block title %}Gains{% endblock %}
 {% block content %}
-<button onclick="goBack()">Go Back</button>
-
-<script>
-function goBack() {
-  window.history.back();
-}
-</script>
+  <div class="box">
+    <h2 class="title is-4">Gains Leaderboard</h2>
+    <div class="table-container" role="region" aria-label="XP Gains Leaderboard Table">
+      <table class="table is-striped is-fullwidth">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>XP Gained</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for rank, (user, xp) in gains.items()|sort(attribute='1', reverse=true)|enumerate(start=1) %}
+          <tr>
+            <td>{{ rank }}</td>
+            <td>{{ user }}</td>
+            <td>{{ xp | int | string | replace(',', '') | int | string | format(",") }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 {% endblock %}

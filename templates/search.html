@@ -1,22 +1,29 @@
+--- search.html ---
 {% extends "base.html" %}
-{% block title %}Search Page{% endblock %}
-
+{% block title %}Search Player{% endblock %}
 {% block content %}
-<form action="#" method="post" style="position: relative; background-color:989898; color:222222; text-align: center;">
-	
-    <div class="field" style = "background-color:989898; color:222222;">
-        <label class="label"style="background-color:989898; color:222222;">RSN</label>
+  <div class="box">
+    <h2 class="title is-4">Search for Player</h2>
+    <form method="POST" action="/search">
+      <div class="field">
+        <label class="label">RuneScape Name</label>
         <div class="control">
-            <input class="input is-primary" type="text" placeholder="eg: The Lord Ryn" name = "nm">
-            <label class="checkbox">
-                <input type="checkbox" name="Get latest">
-                add latest RS skills data to database
-            </label></br>
-            <button class="button is-primary" value="submit">Submit</button>
- 
+          <input class="input" type="text" name="nm" placeholder="Enter username..." required>
         </div>
-    </div>
-<!-- 	<p><input type="text" name="nm" /></p> -->
-
-</form>
+      </div>
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox" name="Get latest">
+            Update from latest hiscore data
+          </label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <button class="button is-primary" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
 {% endblock %}
