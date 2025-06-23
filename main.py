@@ -109,8 +109,8 @@ def update_leaderboard():
     usernames = get_clan_members()
     totals = get_total_xp()
     fdb.child('leaderboard').child(dt).set(dict(zip(usernames, totals)))
-    return usernames
     print(f"✅ Leaderboard updated at {dt} with {len(usernames)} members")
+    return usernames
 
 
 def create_player_df(rawRSN, update):
@@ -192,6 +192,7 @@ def clan_leaderboard_default():
 
 @app.route('/leaderboards-isRaw=<isRaw>')
 def clan_leaderboard(isRaw):
+    update_leaderboard()
     leaderboard = db.reference("leaderboard").get()
     if not leaderboard:
         return render_template("notexist.html")
